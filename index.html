@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fikri Muhaimi Azhar Calculator</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -18,12 +19,54 @@
     </header>
     
     <section>
-        <div>
-            <h2>Segitiga</h2>
+        <! -- Ini Title General -->
+        <div class="section-content">
+            <h3>Segitiga</h3>
         </div>
+    
+        <button type="button" id="switch-keliling"><u>Switch ke Keliling Segitiga</u></button>
     </section>
-</body>
-        
+    <section>
+        <! -- Konten atas --> 
+        <section>
+            <div class="section-content">
+                <h2>Luas Segitiga</h2>
+            </div>
+    
+            <div class="formula-image">
+                <img 
+                    src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjtQj3damdUMrB7NGGoc1qp7hNlWdpC_GJxnkiaA9JpyXEbPzc24PEalidWP4du9LY7s1g51LweT-7lqlh83cXAf3fTHFTZrDkSlStPgey9bv8LvWrxvV1YnGNb3VRrOXcms6o6WVSmZv4/s1600/Rumus+Luas+Segitiga.png" width="200" height="200">
+            </div>
+    
+            <p>isi onten segirtiga</p>
+        </section>
 
+        <! -- Pemisah konten -->
+        <hr />
+
+        <! -- Konten bawah luas segitiga --> 
+        <section>
+            <header>
+                <h2>Hitung Luas Segitiga</h2>
+            </header>
+
+            <form>
+                <section>
+                    <div>
+                        <label>Alas:</label><input />
+                        </div>
         
+                        <div>
+                        <label>Tinggi:</label><input />
+                        </div>
+                </section>
+
+                <p> Diketahui: ipsum ...</p>
+
+                <button type="button">Hitung</button>
+                <button type="button" id="reset-btn">reset</button>
+            </form>
+        </section>
+    </section>
+</body>            
 </html>
