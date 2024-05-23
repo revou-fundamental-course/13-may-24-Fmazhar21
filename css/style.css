@@ -41,7 +41,21 @@ form>button {
     border-radius: 18px;
 }
 
+.button-responsive>button {
+    padding: 18px;
+    background-color: orange;
+    border: 1px dotted black;
+    border-radius: 18px;
+}
+
 #reset-btn {
     background-color: gray;
     color: white;
+}
+
+
+@media only screen and (max-width: 480px) {
+    .button-responsive {
+        flex-direction: column;
+    }
 }
