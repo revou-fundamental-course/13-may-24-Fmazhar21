@@ -13,7 +13,7 @@
         <h1> Welcome to my calculator</h1>
         <section>
             <p>
-                Website ini dibuat oleh Fikri Muhaimi Azhar
+                Welcome
             </p>
         </section>
     </header>
@@ -38,7 +38,8 @@
                     src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjtQj3damdUMrB7NGGoc1qp7hNlWdpC_GJxnkiaA9JpyXEbPzc24PEalidWP4du9LY7s1g51LweT-7lqlh83cXAf3fTHFTZrDkSlStPgey9bv8LvWrxvV1YnGNb3VRrOXcms6o6WVSmZv4/s1600/Rumus+Luas+Segitiga.png" width="200" height="200">
             </div>
     
-            <p>isi onten segirtiga</p>
+            <p>Luas segitiga adalah ukuran luas yang dicakup oleh segitiga tersebut. Luas segitiga dapat kita nyatakan dalam satuan persegi.</p>
+
         </section>
 
         <! -- Pemisah konten -->
@@ -53,20 +54,70 @@
             <form>
                 <section>
                     <div>
-                        <label>Alas:</label><input />
+                        <label>Alas:</label><input id="alas-input" type ="number" />
                         </div>
         
                         <div>
-                        <label>Tinggi:</label><input />
+                        <label>Tinggi:</label><input id="tinggi-input" type="number"/>
                         </div>
                 </section>
 
-                <p> Diketahui: ipsum ...</p>
+                <p> Diketahui: rumus luas segitiga adalah 1/2 A * T</p>
 
-                <button type="button">Hitung</button>
-                <button type="button" id="reset-btn">reset</button>
+                <div claass ="button-responsive" style ="display: flex;" >
+                    <button type="button" oneclick ="validatin();" id="calculate-btn">Hitung</button>
+                    <button type="button" id="reset-btn">reset</button>
+                </div>
             </form>
         </section>
     </section>
+
+
+        <section style="padding-top: 32px;">
+            <! -- Konten atas --> 
+            <section>
+                <div class="section-content">
+                    <h2>Keliling segitiga</h2>
+                </div>
+        
+                <div class="formula-image">
+                    <img 
+                        src="https://i.pinimg.com/736x/04/cb/5d/04cb5d5312b7c44589e14cfb4cadcf6e.jpg" width="200" height="150">
+                </div>
+        
+                <p>Keliling segitiga adalah jumlah total panjang semua sisi dalam segitiga. Dalam segitiga dengan panjang sisi 
+                    a, b, dan c, kelilingnya dapat dihitung dengan menjumlahkan ketiga panjang sisi tersebut</p>
+            </section>
+    
+            <! -- Pemisah konten -->
+            <hr />
+    
+            <! -- Konten bawah luas segitiga --> 
+            <section>
+                <header>
+                    <h2>Keliling  Segitiga</h2>
+                </header>
+    
+                <form>
+                    <section>
+                        <div>
+                            <label>Sisi A:</label><input />
+                            </div>
+            
+                            <div>
+                            <label> Sisi B:</label><input />
+                            </div>
+                            <div>
+                            <label>Sisi C</label><input />
+                        </div>
+                    </section>
+    
+                    <p> Diketahui: Rumus keliling segitiga k = a + b + c </p>
+    
+                    <button type="button">Hitung</button>
+                    <button type="button" id="reset-btn">reset</button>
+                </form>
+            </section>
+        </section>
 </body>            
 </html>
